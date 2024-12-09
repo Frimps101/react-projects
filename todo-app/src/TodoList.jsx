@@ -13,8 +13,6 @@ function TodoList(){
             setTasks(t => [...t, newTask]);
             setNewTask("");
         }
-
-        setEmptyVal("You need to enter a value!!");
         
     }
 
