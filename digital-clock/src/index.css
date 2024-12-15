@@ -1,0 +1,31 @@
+body{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+h1 {
+  font-size: 6em;
+  font-weight: bold;
+  color: rgb(132, 130, 238);
+}
+
+.clock-container{
+ 
+}
+
+.clock{
+  text-shadow: 3px 3px 10px rgba(132, 130, 238, 0.753);
+}
