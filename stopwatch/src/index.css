@@ -1,0 +1,48 @@
+body{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.display{
+  font-size: 5rem;
+}
+
+.controls button{
+  font-size: 1.2rem;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 125px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  transition: background-color 0.5s ease;
+  color: white;
+}
+
+.start-button{
+  background-color: rgb(3, 164, 113);
+}
+
+.start-button:hover{
+  background-color: rgba(0, 166, 113, 0.81);
+}
+
+.stop-button{
+  background-color: rgb(229, 28, 6);
+}
+
+.stop-button:hover{
+  background-color: rgba(229, 28, 6, 0.745);
+}
+
+.reset-button{
+  background-color: rgb(6, 162, 229);
+}
+
+.reset-button:hover{
+  background-color: rgba(6, 162, 229, 0.728);
+}
